@@ -6,7 +6,7 @@ import icon from "../images/icon.png"
 import "./css/create.css"
 const Create = () => {
     const navigate = useNavigate();
-    const url = "http://localhost:4000/create"
+    const url = "https://instaclone-node-app.herokuapp.com/create"
 
     // const [image, setImage ] = useState("");
     const [imgurl, setImgurl] = useState("");

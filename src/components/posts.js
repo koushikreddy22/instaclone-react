@@ -44,7 +44,7 @@ const Posts = () => {
     )
   }
   const navigate = useNavigate();
-  const { data } = useFetch(" http://localhost:4000/allposts");
+  const { data } = useFetch("https://instaclone-node-app.herokuapp.com/allposts");
   let arr = []
   for (var key in data) {
     let posts = data[key]
